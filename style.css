@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial;
   background: #f8f9fa;
   padding: 30px;
 }
@@ -35,8 +35,8 @@ body {
 }
 
 .timeline-item .date {
-  color: #b04444;
-  font-weight: bold;
+  color: #F97316;
+  font-weight: Regular;
 }
 
 .timeline-item.orange .circle {
@@ -45,4 +45,9 @@ body {
 
 .timeline-item.gray .circle {
   background-color: #bbb;
+}
+
+.timeline-item .line {
+  border: 0px solid #E5E7EB;
+  background: rgba(249, 115, 22, 0.20);
 }
